@@ -20,7 +20,7 @@ Chef 0.10.10+ for platform_family use.
 * Fill in your "Source Code Management" information.
 * Configure a "Build Trigger", for instance "Poll SCM".
 * Click "Save".
-* Add folder 'files' in your project root, like: 
+* Add folder 'files' in your project root, as: 
 <pre>
 		`-- your project
 		    	|-- build.xml
@@ -29,6 +29,8 @@ Chef 0.10.10+ for platform_family use.
 					|-- phpdox.xml
 					|-- phpmd.xml
 					|-- phpunit.xml
+					|-- api ...
+					|-- coverage ...
 					|-- logs
 					    |-- checkstyle.xml
 					    |-- clover.xml
@@ -41,7 +43,7 @@ Chef 0.10.10+ for platform_family use.
 
 ## Platform Tested
 
-- Ubuntu 12.04 LTS 32-bit (precise32)
+- Ubuntu 12.04 LTS 32-bit (hashicorp/precise32)
 
 ## Dependencies
 - [acfreitas/php](https://github.com/acfreitas/php)
