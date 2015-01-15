@@ -23,28 +23,28 @@ Chef 0.10.10+ for platform_family use.
 * Add folder 'files' in your project root, like: 
 <pre>
 		`-- your project
-		    |-- build.xml
-			`--	build
-				|-- phpcs.xml 
-				|-- phpdox.xml
-				|-- phpmd.xml
-				|-- phpunit.xml
-				`-- logs
-				    |-- checkstyle.xml
-				    |-- clover.xml
-				    |-- crap4j.xml
-				    |-- jdepend.xml
-				    |-- junit.xml
-				    |-- phploc.csv
-				    |-- pmd-cpd.xml
-				    |-- pmd.xml</pre>
+		    	|-- build.xml
+				|-- build
+					|-- phpcs.xml 
+					|-- phpdox.xml
+					|-- phpmd.xml
+					|-- phpunit.xml
+					|-- logs
+					    |-- checkstyle.xml
+					    |-- clover.xml
+					    |-- crap4j.xml
+					    |-- jdepend.xml
+					    |-- junit.xml
+					    |-- phploc.csv
+					    |-- pmd-cpd.xml
+					    |-- pmd.xml</pre>
 
 ## Platform Tested
 
 - Ubuntu 12.04 LTS 32-bit (precise32)
 
 ## Dependencies
-- [php](https://github.com/acfreitas/php)
+- [acfreitas/php](https://github.com/acfreitas/php)
 - [opscode-cookbooks/apt](https://github.com/opscode-cookbooks/apt) 
 
 ## More information
