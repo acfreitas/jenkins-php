@@ -46,6 +46,7 @@ Chef 0.10.10+ for platform_family use.
 ## Dependencies
 - [acfreitas/php](https://github.com/acfreitas/php)
 - [opscode-cookbooks/apt](https://github.com/opscode-cookbooks/apt) 
+- [opscode-cookbooks/jenkins](https://github.com/opscode-cookbooks/jenkins)
 
 ## More information
 Check the [Chef Solo documentation](https://docs.chef.io/chef_solo.html)
